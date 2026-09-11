@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "alexstevovich-is-binary-ext"
+version = "1.0.0"
+description = "Identify common binary file extensions"
+requires-python = ">=3.11"
+dependencies = []
+[tool.setuptools.packages.find]
+where = ["src"]

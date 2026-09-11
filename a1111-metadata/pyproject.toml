@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alexstevovich-a1111-metadata"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["alexstevovich-comfyui-metadata"]
+
+[tool.uv.sources]
+alexstevovich-comfyui-metadata = { workspace = true }
+
+[tool.setuptools.packages.find]
+where = ["src"]

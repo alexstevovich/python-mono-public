@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "alexstevovich-trim-http"
+version = "1.0.0"
+description = "Remove an HTTP or HTTPS prefix from a string"
+requires-python = ">=3.11"
+dependencies = []
+[tool.setuptools.packages.find]
+where = ["src"]

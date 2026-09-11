@@ -1,0 +1,84 @@
+[project]
+name = "python-mono-public"
+version = "0.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "alexstevovich-a1111-metadata",
+    "alexstevovich-bit-entropy",
+    "alexstevovich-camel-to-snake-keys",
+    "alexstevovich-cap-product-volume",
+    "alexstevovich-cardinal-power",
+    "alexstevovich-comfyui-metadata",
+    "alexstevovich-image-convert",
+    "alexstevovich-image-crunch",
+    "alexstevovich-index-by",
+    "alexstevovich-index-by-tags",
+    "alexstevovich-is-binary-ext",
+    "alexstevovich-is-file-binary",
+    "alexstevovich-is-valid-uuid",
+    "alexstevovich-kebab-to-snake",
+    "alexstevovich-media-download",
+    "alexstevovich-reduce-fraction",
+    "alexstevovich-round-decimal",
+    "alexstevovich-snake-to-camel-keys",
+    "alexstevovich-snake-to-kebab",
+    "alexstevovich-tar-archive",
+    "alexstevovich-video-crunch",
+    "alexstevovich-video-transcode",
+    "alexstevovich-trim-http",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = [
+    "a1111-metadata",
+    "bit-entropy",
+    "camel-to-snake-keys",
+    "cap-product-volume",
+    "cardinal-power",
+    "comfyui-metadata",
+    "image-convert",
+    "image-crunch",
+    "index-by",
+    "index-by-tags",
+    "is-binary-ext",
+    "is-file-binary",
+    "is-valid-uuid",
+    "kebab-to-snake",
+    "media-download",
+    "reduce-fraction",
+    "round-decimal",
+    "snake-to-camel-keys",
+    "snake-to-kebab",
+    "tar-archive",
+    "video-crunch",
+    "video-transcode",
+    "trim-http",
+]
+
+[tool.uv.sources]
+alexstevovich-a1111-metadata = { workspace = true }
+alexstevovich-bit-entropy = { workspace = true }
+alexstevovich-camel-to-snake-keys = { workspace = true }
+alexstevovich-cap-product-volume = { workspace = true }
+alexstevovich-cardinal-power = { workspace = true }
+alexstevovich-comfyui-metadata = { workspace = true }
+alexstevovich-image-convert = { workspace = true }
+alexstevovich-image-crunch = { workspace = true }
+alexstevovich-index-by = { workspace = true }
+alexstevovich-index-by-tags = { workspace = true }
+alexstevovich-is-binary-ext = { workspace = true }
+alexstevovich-is-file-binary = { workspace = true }
+alexstevovich-is-valid-uuid = { workspace = true }
+alexstevovich-kebab-to-snake = { workspace = true }
+alexstevovich-media-download = { workspace = true }
+alexstevovich-reduce-fraction = { workspace = true }
+alexstevovich-round-decimal = { workspace = true }
+alexstevovich-snake-to-camel-keys = { workspace = true }
+alexstevovich-snake-to-kebab = { workspace = true }
+alexstevovich-tar-archive = { workspace = true }
+alexstevovich-video-crunch = { workspace = true }
+alexstevovich-video-transcode = { workspace = true }
+alexstevovich-trim-http = { workspace = true }

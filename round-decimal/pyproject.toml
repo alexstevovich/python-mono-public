@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "alexstevovich-round-decimal"
+version = "1.0.0"
+description = "Round a finite number to a number of decimal places"
+requires-python = ">=3.11"
+dependencies = []
+[tool.setuptools.packages.find]
+where = ["src"]
